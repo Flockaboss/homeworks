@@ -3,21 +3,25 @@ body{
 }
 
 nav{
+    display: inline-block;
     float: left;
     position: sticky;
     margin: 10% 0px 0px 5%;
     top: 5%;
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
 }
 
 
 li{
-    text-align: center;
+    display: block;
     background-color: #dcf4fa;
-    width: 10vw;
-    height: 2vw;
+    width: 70%;
+    height: 2%;
     line-height: 2vw;
     list-style: none;
-    margin: 2%;
+    margin: 2% auto;
 }
 
 li:hover{
