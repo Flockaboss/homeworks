@@ -9,13 +9,10 @@ nav{
     top: 5%;
 }
 
-ul{
-    overflow: hidden;
-}
 
 li{
     text-align: center;
-    background-color: rgb(31, 147, 133);
+    background-color: #dcf4fa;
     width: 10vw;
     height: 2vw;
     line-height: 2vw;
@@ -24,7 +21,8 @@ li{
 }
 
 li:hover{
-    filter: brightness(2);
+    filter: brightness(0.9);
+    transform: scale(1.2);
 }
 
 main{
@@ -57,7 +55,7 @@ img{
 button{
     display: block;
     width: 20vw;
-    height: 5vh;
+    height: 3vw;
     border: none;
     border-radius: 0.5vw;
     margin: 5% auto;
