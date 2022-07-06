@@ -21,14 +21,23 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#">Politics</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Arts</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Entertainment</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Lifestyle</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Business</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Health</a>
+              </li> 
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -50,11 +59,11 @@
             <img src="https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/adae5b77-380f-4c37-ae1a-97323e66ed55/Art_of_1.jpg?format=1000w" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#theBestCarouselEver" data-bs-slide="prev">
+        <button onclick="theBestCarouselEver.classList.remove('anim'); theBestCarouselEver.offsetWidth; theBestCarouselEver.classList.add('anim');" class="carousel-control-prev" type="button" data-bs-target="#theBestCarouselEver" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#theBestCarouselEver" data-bs-slide="next">
+        <button onclick="theBestCarouselEver.classList.remove('anim'); theBestCarouselEver.offsetWidth; theBestCarouselEver.classList.add('anim');" class="carousel-control-next" type="button" data-bs-target="#theBestCarouselEver" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>

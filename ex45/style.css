@@ -11,3 +11,24 @@ img{
     height: 30vw;
     object-fit: cover;
 }
+
+.anim{
+    animation-name: shadowing;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2
+}
+
+@keyframes shadowing {
+    from {box-shadow: 0px 0px 0px 0px red;
+        border-radius: 5vw;
+
+    }
+    to {box-shadow: 0px 0px 10px 10px rgb(255, 0, 225);
+        border-radius: 100%;
+        width: 30vw;
+
+    }
+    
+}
