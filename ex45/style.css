@@ -1,0 +1,14 @@
+.carouselEdited{
+    margin: 10% auto;
+    height: 70vh;
+    border: 1px solid black;
+}
+
+.ciEdited{
+    width: auto; 
+    min-height: 100%; 
+}
+
+img{
+    object-fit: cover;
+}
